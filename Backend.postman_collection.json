@@ -1,0 +1,198 @@
+{
+	"info": {
+		"_postman_id": "bc4736ee-f946-454d-a712-668f722ce68c",
+		"name": "Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15056264"
+	},
+	"item": [
+		{
+			"name": "News",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Student",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "News",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\": 1,\r\n        \"title\": \"The Man\",\r\n        \"content\": \"New Series\",\r\n        \"author\": \"amazon\",\r\n        \"date\": \"19 November 2024\"\r\n    },\r\n    {\r\n        \"title\": \"The A\",\r\n        \"content\": \"NAew Series\",\r\n        \"author\": \"NEW\",\r\n        \"date\": \"19 A 2024\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/news",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"news"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"The Man\",\r\n        \"age\": \"5\"\r\n \r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "News",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\": 1,\r\n        \"title\": \"The Man\",\r\n        \"content\": \"New Series\",\r\n        \"author\": \"amazon\",\r\n        \"date\": \"19 November 2024\"\r\n    },\r\n    {\r\n        \"title\": \"The A\",\r\n        \"content\": \"NAew Series\",\r\n        \"author\": \"NEW\",\r\n        \"date\": \"19 A 2024\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/news/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"news",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "News Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"The Man\",\r\n        \"age\": \"5\"\r\n \r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/students/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "News Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\": 1,\r\n        \"title\": \"The Man\",\r\n        \"content\": \"New Series\",\r\n        \"author\": \"amazon\",\r\n        \"date\": \"19 November 2024\"\r\n    },\r\n    {\r\n        \"title\": \"The A\",\r\n        \"content\": \"NAew Series\",\r\n        \"author\": \"NEW\",\r\n        \"date\": \"19 A 2024\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/news/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"news",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "student",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\": 1,\r\n        \"title\": \"The Man\",\r\n        \"content\": \"New Series\",\r\n        \"author\": \"amazon\",\r\n        \"date\": \"19 November 2024\"\r\n    },\r\n    {\r\n        \"title\": \"The A\",\r\n        \"content\": \"NAew Series\",\r\n        \"author\": \"NEW\",\r\n        \"date\": \"19 A 2024\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/students/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
