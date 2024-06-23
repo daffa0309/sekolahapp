@@ -1,9 +1,9 @@
 package com.example.sekolahapp.model;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
+import jakarta.persistence.*;
+
+
+@Table //is a corresponding table that matches that entity in the database
 @Entity
 public class Student {
     @Id
